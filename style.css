@@ -1,0 +1,72 @@
+html,body{
+	margin:0;
+	padding: 0;
+	background: url(images/indexbackground.png);
+	background-size: cover;
+	height: 100%;
+	font-family: verdana;
+}
+
+.wrapper{
+	padding: 20px;
+	width: 300px;
+	min-height: 100px;
+	background: #ffffff;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	box-shadow: 0 0 10px #ffffff,inset 0 0 10px orange;
+}
+
+.wrapper .logo{
+	width: auto;
+	background: transparent;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.wrapper .logo img{
+	width: 200px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.wrapper .field{
+	text-align: center;
+}
+
+.wrapper .field .inp{
+	width: 95%;
+	padding: 8px 0 8px 8px;
+	font-size: 10pt;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 2px solid #777777
+}
+
+
+.wrapper .field .btn{
+	border: 1px solid black;
+	width: 100%;
+	padding: 5px;
+	font-size: 13pt;
+	margin-bottom: 10px;
+	background: #bfbfbf;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.wrapper .field .btn:hover{
+	background: #003F5F
+}
+
+.wrapper .field label a{
+	font-size: 8pt;
+	text-decoration: none;
+	text-underline-position: none;
+}
+
+
+
